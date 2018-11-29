@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Find all emacs backup files and ask for delete
+
+find . -name "*~" -exec rm -i {} \;
+
+# End of file
