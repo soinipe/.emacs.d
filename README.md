@@ -5,6 +5,6 @@ Helper scripts:
 Install:
 - `$ cd ~`
 - `$ git clone https://github.com/soinipe/.emacs.d.git .emacs.d`
-- `$ cp .emacs.d/.bash_aliases .`
-- `$ mkdir bin`
-- `$ cp .emacs.d/clear~s  bin`
+- `$ cd .emacs.d`
+- `$ cp .bash_aliases ..`
+- `$ cp -r bin ..`
