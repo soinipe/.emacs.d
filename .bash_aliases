@@ -1,5 +1,6 @@
 # Personal aliases
 
+alias ll='ls -l'
 alias rm='rm -i'
 alias t=less
 alias j=jobs
