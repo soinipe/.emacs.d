@@ -1,4 +1,5 @@
-# Some helpers to tailor .bashrc
+
+# Custom configuration:
 
 umask 002
 
