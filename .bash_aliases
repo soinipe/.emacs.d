@@ -5,6 +5,7 @@ alias rm='rm -i'
 alias t=less
 alias j=jobs
 alias h=history
+alias ha='history -a'
 
 alias gs="git status"
 alias ga="git add"
