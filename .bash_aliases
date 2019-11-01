@@ -16,4 +16,9 @@ alias gr="git reset"
 
 alias valg="G_SLICE=always-malloc; G_DEBUG=gc-friendly; valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --num-callers=40"
 
+alias Bc=bcompare
+alias BC=bcompare
+
+alias lesss="less --no-init"
+
 # End of file
