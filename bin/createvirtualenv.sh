@@ -1,6 +1,9 @@
 :
 # Helper to install virtualenv&wrapper on Ubuntu16.04
 
+sudo apt-get install python-dev
+sudo apt-get install python3-dev
+
 mkdir $HOME/.virtualenvs
 cd /tmp
 wget https://bootstrap.pypa.io/get-pip.py
