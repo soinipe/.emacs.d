@@ -32,7 +32,7 @@
 ;; All buffers with case-sensitive search
 (setq-default case-fold-search nil)
 
-(set-frame-size (selected-frame) 81 45)
+;;(set-frame-size (selected-frame) 81 45)
 
 (set-variable 'my-project-name "My Project")
 
