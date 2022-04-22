@@ -37,9 +37,12 @@
 (set-variable 'my-project-name "My Project")
 
 (custom-set-variables
-  ;; custom-set-variables was added by Custom -- don't edit or cut/paste it!
-  ;; Your init file should contain only one such instance.
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(find-dired-find-program "unixfind")
+ '(inhibit-startup-screen t)
  '(truncate-lines t)
  '(user-full-name "Petri Soininen"))
 
@@ -95,7 +98,7 @@
   ;; add my personal style and set it for the current buffer
   (c-add-style "PERSONAL" symbian-cpp-style t)
   ;; other customizations
-  (setq tab-width 3
+  (setq tab-width 4
 	comment-start "// "
 	comment-end   ""
         ;; this will make sure spaces are used instead of tabs
@@ -128,8 +131,10 @@
 (add-hook 'cperl-mode-hook 'my-cperl-mode-hook)
 
 (custom-set-faces
-  ;; custom-set-faces was added by Custom -- don't edit or cut/paste it!
-  ;; Your init file should contain only one such instance.
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  )
 
 ;; End of file
