@@ -12,7 +12,7 @@ export LC_ALL=C
 # Add Git Status to bash prompt
 # -Installation: clone this repository to your home directory.
 #    git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
-# -Create $HOME/.bash-git-prompt/My_Ubuntu.bgptheme
+# -Create $HOME/.bash-git-prompt/themes/My_Ubuntu.bgptheme
 # -Repository should not use 'bash-git-prompt'? Add file '.bash-git-rc' with single line 'GIT_PROMPT_IGNORE=1' into root folder.
 # -Add to the ~/.bashrc:
 if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
