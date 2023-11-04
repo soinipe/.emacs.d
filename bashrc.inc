@@ -8,6 +8,7 @@ HISTTIMEFORMAT="%Y-%m-%d %T "
 umask 002
 
 export LC_ALL=C
+export MANPAGER='less --no-init'
 
 # Add Git Status to bash prompt
 # -Installation: clone this repository to your home directory.
