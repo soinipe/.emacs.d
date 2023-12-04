@@ -1,0 +1,7 @@
+# Personal aliases specific to MinGW/MSYS2
+
+BCOMPARE_EXE="/c/Program\ Files/Beyond\ Compare\ 4/bcomp.exe"
+alias bcompare=${BCOMPARE_EXE}
+alias Bc=${BCOMPARE_EXE}
+
+# End of file
