@@ -1,6 +1,8 @@
 
 # Custom configuration:
 
+export PATH=${PATH}:${HOME}/bin
+
 HISTSIZE=10000
 HISTFILESIZE=50000
 HISTTIMEFORMAT="%Y-%m-%d %T "
@@ -36,5 +38,7 @@ if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
     # GIT_PROMPT_THEME=Solarized # use theme optimized for solarized color scheme
     source $HOME/.bash-git-prompt/gitprompt.sh
 fi
+
+eval `ssh-agent`
 
 # End of file
