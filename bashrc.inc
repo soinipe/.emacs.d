@@ -9,6 +9,13 @@ HISTTIMEFORMAT="%Y-%m-%d %T "
 
 umask 002
 
+# Append, don’t overwrite
+shopt -s histappend
+
+# Write each command immediately
+# - note that this might be confict with bash-git-prompt, therefore in comment
+#export PROMPT_COMMAND='history -a'
+
 export LC_ALL=C
 export MANPAGER='less --no-init'
 
